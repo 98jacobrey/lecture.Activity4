@@ -14,7 +14,7 @@ namespace lecture.Activity4
         {
             Console.WriteLine(" ".PadRight(50, '*'));
             Console.WriteLine("for-loop statement");
-            Console.WriteLine(" ".PadRight(50., '*'));
+            Console.WriteLine(" ".PadRight(50, '*'));
 
             int limit = 10;
             for (int counter = 0; counter < limit; counter++)
@@ -46,7 +46,7 @@ namespace lecture.Activity4
                     counter2++;
                 } while (counter2 < 10);
 
-                Console.WriteLine(\n);
+                Console.WriteLine("\n");
                 Console.WriteLine("".PadRight(50, '*'));
                 Console.WriteLine("While statement");
                 Console.WriteLine("".PadRight(50, '*'));
